@@ -23,10 +23,10 @@ This was downloaded in bulk from Enphase’s monitoring site.
 This was downloaded in bulk from OpenWeather for lat/long (44.9973, -93.2655) which is Northeast Minneapolis
 
 # Transformations:
-Cleaning timestamps by defining a timestamp function and setting up a list to loop through and apply the function to format all dates
-Removing unnecessary columns from the weather dataset to reduce the amount of data stored in the final database. 
-Converting temperature from Kelvin to Fahrenheit 
-Converting data in the Minneapolis solar dataset from watts to watt hours and cumulative watt hours so both solar datasets contain the same information.
+> - Cleaning timestamps by defining a timestamp function and setting up a list to loop through and apply the function to format all dates
+> - Removing unnecessary columns from the weather dataset to reduce the amount of data stored in the final database. 
+> - Converting temperature from Kelvin to Fahrenheit 
+> - Converting data in the Minneapolis solar dataset from watts to watt hours and cumulative watt hours so both solar datasets contain the same information.
 
 # Type of Final Database:
 Relational database in PostgreSQL
